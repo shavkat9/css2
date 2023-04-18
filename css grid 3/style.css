@@ -1,0 +1,17 @@
+body {
+    font-family: serif;;
+}
+.grid_container {
+    display: grid;
+    grid-auto-rows: 100px;
+  }
+.grid_item {
+    padding: 20px;
+    background-color: azure;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+.item-1 {
+    grid-column: 1 / 3;
+} 
